@@ -46,3 +46,11 @@ Conversely, a larger (insignificant) p-value suggests that changes in the predic
 The variables used in this test are:
 •	Dependent variable   : Medal
 •	Independent variable : Age, Height and Weight
+
+# How to Run
+
+Download the code.R file and the dataset (Extract the athlete_events.rar) to the same directory. 
+
+Run the first line of the code seperately i.e., Give the input seperately. For example, Enter the sport : Taekwondo
+
+After giving the input, run the remaining lines of the code.
