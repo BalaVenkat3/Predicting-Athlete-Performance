@@ -1,3 +1,5 @@
+input<-readline(prompt = "Enter the sport : ")
+
 data_set<-read.csv("D:/Studies/Paper Vizag/athlete_events.csv")
 sports=data_set$Sport
 #data_set<-data.frame(data_set$Age,data_set$Height,data_set$Weight,data_set$Points)
@@ -39,5 +41,3 @@ print(summary(result[[k]]))
 print(result[[k]])
 library(psych)
 pairs.panels(new_data[[k]])
-
-input<-readline(prompt = "Enter the sport : ")
